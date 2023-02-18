@@ -7,7 +7,15 @@
 //     genNew.addEventListener("click", setBg);
 //     setBg();
 
-    const s=document.querySelectorAll('#geometry-section>div');
-    for(i=0;i<s.length;i++){
-      console.log(s[i]);
+    const sections= document.querySelectorAll('#geometry-section>div');
+    for (let i = 0; i < sections.length; i++) {
+      const element = sections[i];
+      element.addEventListener('mouseenter',function(){
+            const randomColor = Math.floor(Math.random()*16777215).toString(16);
+            element.style.backgroundColor="#" + randomColor;
+            element.addEventListener('mouseleave',function(){
+                  element.style.backgroundColor='white';
+            })
+      })
+      
     }
