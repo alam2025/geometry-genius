@@ -11,3 +11,9 @@ input{
       border-radius: 5px;
       padding: 3px 10px !important;
 }
+.btn-convert{
+      background-color: #1090D8;
+      border-radius: 5px;
+      padding: 4px 8px;
+      color:white;
+}
