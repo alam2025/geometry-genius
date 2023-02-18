@@ -8,6 +8,7 @@ function getValue(id) {
             return;
       }
       else {
+            field.value='';
             return fieldValue;
       }
 }
@@ -52,4 +53,11 @@ function setResult(result,name) {
 
       mainResult.appendChild(div);
       }
+}
+
+
+//set element value 
+
+function setElementValue(value, destination){
+      destination.innerText=value;
 }
