@@ -6,7 +6,7 @@
             const randomColor = Math.floor(Math.random()*16777215).toString(16);
             element.style.backgroundColor="#" + randomColor;//random color set
             element.addEventListener('mouseleave',function(){
-                  element.style.backgroundColor='white'; // defalut color set
+                  element.style.backgroundColor='transparent'; // defalut color set
             })
       })
       
