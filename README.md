@@ -1,1 +1,4 @@
-# b7a5-geometry-genius-assignment-alam2025
+# geometry-genius
+
+## Website link :
+[Link](https://magical-boba-e188e2.netlify.app/) and https://magical-boba-e188e2.netlify.app/
